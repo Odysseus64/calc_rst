@@ -1,9 +1,10 @@
 use std::io;
 
 fn main(){
-
+    // Aaaaaaa ummm this is calculator
     println!("Enter first number: ");
     let mut first: String = String::new();
+
     io::stdin().read_line(&mut first)
         .expect("First выдает ошибку");
 
@@ -15,9 +16,9 @@ fn main(){
         }
     };
     
-    
     println!("Enter second number: ");
     let mut second: String = String::new();
+    
     io::stdin().read_line(&mut second)
         .expect("Second выдает ошибку");
 
@@ -28,10 +29,10 @@ fn main(){
             return;
         }
     };
-
     
     println!("Choose element [+ - * /]");
     let mut element: String = String::new();
+    
     io::stdin().read_line(&mut element)
         .expect("Error with element") ;
 
